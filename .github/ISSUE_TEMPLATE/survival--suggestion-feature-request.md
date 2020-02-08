@@ -1,6 +1,7 @@
 ---
-name: Survival Suggestion/Feature Request
-about: Is the survival server missing something? Is something annoying you?
+name: 'Survival: Suggestion/Feature Request'
+about: Is the survival server missing something? Do you wish you could do something
+  in a certain way?
 title: ''
 labels: feature-request, survival-server
 assignees: ''
