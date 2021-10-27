@@ -1,6 +1,6 @@
 name: Smithing Recipe Suggestion
 description: Suggest a smithing recipe idea
-labels: [suggestion:recipe]
+labels: ["status:undecided", "suggestion:recipe"]
 body:
   - type: input
     attributes:

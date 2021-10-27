@@ -1,6 +1,6 @@
 name: General Item Suggestion
 description: Suggest an item idea for MineInAbyss
-labels: [suggestion:item]
+labels: ["status:undecided", "suggestion:item"]
 body:
   - type: dropdown
     id: itemType

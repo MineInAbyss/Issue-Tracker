@@ -1,6 +1,6 @@
 name: Mob Suggestion
 description: Suggest a mob for MineInAbyss
-labels: [suggestion:mob]
+labels: ["status:undecided", "suggestion:mob"]
 body:
   - type: input
     attributes:

@@ -1,6 +1,6 @@
 name: Crafting Recipe Suggestion
 description: Suggest a crafting recipe idea
-labels: [suggestion:recipe]
+labels: ["status:undecided", "suggestion:recipe"]
 body:
   - type: markdown
     attributes:

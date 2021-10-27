@@ -1,6 +1,6 @@
 name: Custom Enchantment Suggestions
 description: Suggest a Custom Enchantment idea for MineInAbyss
-labels: [suggestion:enchantment]
+labels: ["status:undecided", "suggestion:enchantment"]
 body:
   - type: input
     attributes:

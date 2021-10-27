@@ -1,6 +1,6 @@
 name: Cooking Recipe Suggestion
 description: Suggest a cooking recipe idea
-labels: [suggestion:recipe]
+labels: ["status:undecided", "suggestion:recipe"]
 body:
   - type: checkboxes
     id: cooking-types

@@ -1,6 +1,6 @@
 name: Mobdrop Suggestion
 description: Suggest a mobdrop related idea for MineInAbyss
-labels: [suggestion:mob]
+labels: ["status:undecided", "suggestion:mob"]
 body:
   - type: input
     attributes:

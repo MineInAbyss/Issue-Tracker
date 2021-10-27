@@ -1,6 +1,6 @@
 name: Relic Suggestion
 description: Suggest a relic idea for MineInAbyss
-labels: [suggestion:relic]
+labels: ["status:undecided", "suggestion:relic"]
 body:
   - type: input
     attributes:

@@ -1,6 +1,6 @@
 name: Feature Request
 description: Suggest an idea for MineInAbyss
-labels: [feature-request]
+labels: ["status:undecided", "feature-request"]
 body:
   - type: markdown
     attributes:

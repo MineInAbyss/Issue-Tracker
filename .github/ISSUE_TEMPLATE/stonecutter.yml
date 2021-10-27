@@ -1,6 +1,6 @@
 name: Stonecutter Recipe Suggestion
 description: Suggest a stonecutter recipe idea
-labels: [suggestion:recipe]
+labels: ["status:undecided", "suggestion:recipe"]
 body:
   - type: input
     attributes:
