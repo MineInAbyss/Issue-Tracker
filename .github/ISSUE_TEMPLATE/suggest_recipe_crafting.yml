@@ -1,4 +1,4 @@
-name: Crafting Recipe Suggestion
+name: "Suggest recipe: Crafting"
 description: Suggest a crafting recipe idea
 labels: ["status:undecided", "suggestion:recipe"]
 body:

@@ -1,23 +1,21 @@
-name: Cooking Recipe Suggestion
-description: Suggest a cooking recipe idea
+name: "Suggest recipe: Smithing"
+description: Suggest a smithing recipe idea
 labels: ["status:undecided", "suggestion:recipe"]
 body:
-  - type: checkboxes
-    id: cooking-types
-    attributes:
-      label: Where should this recipe be applied?
-      description: You may select more than one.
-      options:
-        - label: Furnace
-        - label: Blast Furnace
-        - label: Smoker
-        - label: Campfire
-
   - type: input
     attributes:
       label: Input Item
       description: What item is used as the input?
-      placeholder: Raw Charcoal Sand
+      placeholder: Diamond Pickaxe
+    validations:
+      required: true
+
+
+  - type: input
+    attributes:
+      label: Upgrade Item
+      description: What item is used to upgrade the input item?
+      placeholder: Netherite Ingot
     validations:
       required: true
 
@@ -25,7 +23,7 @@ body:
     attributes:
       label: Result
       description: What does this recipe produce?
-      placeholder: Charcoal Sand Ingot
+      placeholder: Netherite Pickaxe
     validations:
       required: true
 
@@ -35,6 +33,19 @@ body:
       description: If you feel like additional information would be helpful add it here.
     validations:
       required: false
+  
+  - type: checkboxes
+    attributes:
+      label: Copy NBT
+      description: |
+        Should the NBT of the input item be copied over.
+        Keep in mind that this does not work for looty items.
+        Example being Diamond Sickle -> Netherite Sickle needs to not copy NBT.
+      options:
+        - label: Yes the NBT data should be copied over
+          required: false
+        - label: No the NBT data should not be copied over
+          required: false
 
   - type: checkboxes
     attributes:

@@ -1,4 +1,4 @@
-name: Bug Report
+name: Report Bug
 description: Report a bug on the server.
 labels: [ "type:bug" ]
 body:
